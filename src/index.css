@@ -1,0 +1,151 @@
+
+.centrar {
+  text-align: center;
+}
+
+.manita {
+  cursor: pointer;
+
+}
+
+i.material-icons {
+  font-size : 45px;
+  color: black;
+  border-radius : 50%;
+  border: 1px solid;
+  cursor: pointer;
+  padding: 5px;
+  box-shadow: rgb(7, 26, 66)  4px 4px 4px 4px;
+}
+
+i.material-icons:hover {
+  font-size : 50px;
+  border-radius : 50%;
+  border: 1 px solid;
+  cursor: pointer;
+  padding: 5px;
+  box-shadow: 0px;
+}
+
+.load{
+  width: 90px; 
+  position: fixed;
+  bottom: 70% ;
+  right: 90px;
+}
+
+.img { 
+  display:inline-block;
+  height: 30%;
+  width: 30%;
+  margin: 0.5%;
+  padding: 20px;
+  
+}
+
+.divPortada {
+ /* Hidden by default display: none;*/
+  display: inline-block;
+  width: 30%; /* Full width */
+  height: 50%; /* Full height */
+  /* border: 3px solid rgb(87, 96, 228); */
+  border-radius: 6px;
+  margin: 20px;
+  padding: 15px;
+  text-align: center;
+  font-family: 'palatino';
+  font-size: 40px;
+}
+
+.divLista {
+  /* Hidden by default display: none;*/
+   float: left;
+   width: 95%; 
+   margin: 20px;
+   padding: 2px;
+   text-align: left;
+   font-family: 'palatino';
+   font-size: 18px;
+   border: 2px solid rgb(4, 37, 11);
+ }
+
+.card-content {
+  float: center;
+  width: 70%;
+  margin: 5%; 
+  padding: 20px;
+  font-family:'palatino';
+  font-size: 20px;
+  /* background-color: rgba(158, 243, 60, 0.479); */
+  border: 2px solid rgb(139, 16, 24);
+  border-radius : 2%;
+  text-align:justify;
+}
+.card-content2 {
+  float:left;
+  margin: 80px 20px 20px 20px;
+  margin: 20px 20px 20px ;  
+  padding: 10px;
+  width: 60%;
+  height: 50%; 
+  font-family:'palatino';
+  font-size: 15px;
+  text-align: center;
+  border: 2px solid rgb(139, 16, 24);
+  border-radius : 1%;
+}
+
+.slidecontainer {
+  float: left;
+  width: 100%; /* Width of the outside container */
+  padding: 5%;
+  margin:0px 70px 50px 90px;
+}
+
+.slidetitulo{
+  text-align: left;
+  font-family: 'palatino' ;
+  font-size: 30px;
+}
+
+.slide {
+  -webkit-appearance: none;
+  width: 40%;
+  height: 15px;
+  border-radius: 5px;  
+  background:rgb(118, 192, 33) ;
+  outline: none;
+  opacity: 0.7;
+}
+
+.slide::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%; 
+  background: rgb(14, 0, 0);
+  cursor: pointer;
+}
+
+.slide::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background:rgb(20, 1, 1);
+  cursor: pointer;
+}
+.etiqueta{
+  display: center;
+  font-size: 23px; 
+  color: white;
+  background-color: black;
+  padding: 5px;
+  border-radius: 2px;
+  font-family: 'palatino';
+}
+.divslider{
+  margin: 60px;
+  width: 85%;
+  height: 80%;
+}
